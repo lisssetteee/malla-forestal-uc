@@ -1,0 +1,24 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+.malla-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+.ramo {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ramo.aprobado {
+    background-color: #b2fab4;
+}
