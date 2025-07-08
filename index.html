@@ -2,14 +2,20 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Malla Ingeniería Forestal UC</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Forestal UC</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Malla Interactiva - Ingeniería Forestal UC (2023)</h1>
-    <div id="malla"></div>
-    <script src="data.js"></script>
-    <script src="script.js"></script>
+  <h1>Malla Ingeniería Forestal UC (2023)</h1>
+  <div id="app">Cargando malla...</div>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const malla = urlParams.get('m') || 'FORESTAL_UC';
+    const dataFile = `data_${malla}.json`;
+    const colorsFile = `colors_${malla}.json`;
+  </script>
+  <script src="script.js"></script>
 </body>
 </html>

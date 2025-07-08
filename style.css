@@ -1,24 +1,28 @@
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 20px;
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
 }
 h1 {
-    text-align: center;
+  text-align: center;
 }
-.malla-row {
-    display: flex;
-    margin-bottom: 10px;
+.grid {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 10px;
+  margin-top: 20px;
+}
+.col {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 8px;
+  min-width: 200px;
 }
 .ramo {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 2px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.ramo.aprobado {
-    background-color: #b2fab4;
+  background: #eee;
+  border-radius: 5px;
+  padding: 6px;
+  margin: 4px 0;
 }

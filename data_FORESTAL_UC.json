@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "name": "Ingenier\u00eda Forestal UC",
+    "code": "FORESTAL_UC",
+    "credits": "SCT",
+    "type": "regular"
+  },
+  "courses": [
+    {
+      "code": "PRECALC",
+      "name": "Prec\u00e1lculo",
+      "credits": 8,
+      "req": [],
+      "term": 1,
+      "category": "Ciencias B\u00e1sicas"
+    },
+    {
+      "code": "QUIMICA",
+      "name": "Qu\u00edmica",
+      "credits": 8,
+      "req": [],
+      "term": 1,
+      "category": "Ciencias B\u00e1sicas"
+    },
+    {
+      "code": "BOTANICA",
+      "name": "Bot\u00e1nica",
+      "credits": 6,
+      "req": [],
+      "term": 1,
+      "category": "Forestales"
+    },
+    {
+      "code": "TALLER1",
+      "name": "Taller de Sistemas Agr\u00edcolas y Forestales I",
+      "credits": 4,
+      "req": [],
+      "term": 1,
+      "category": "Taller"
+    },
+    {
+      "code": "CALC1",
+      "name": "C\u00e1lculo I",
+      "credits": 8,
+      "req": [
+        "PRECALC"
+      ],
+      "term": 2,
+      "category": "Ciencias B\u00e1sicas"
+    },
+    {
+      "code": "BIOQ",
+      "name": "Bioqu\u00edmica General",
+      "credits": 8,
+      "req": [],
+      "term": 2,
+      "category": "Ciencias B\u00e1sicas"
+    },
+    {
+      "code": "FILOS",
+      "name": "Filosof\u00eda: \u00bfPara qu\u00e9?",
+      "credits": 4,
+      "req": [],
+      "term": 2,
+      "category": "Formaci\u00f3n General"
+    },
+    {
+      "code": "TALLER2",
+      "name": "Taller de Sistemas Agr\u00edcolas y Forestales II",
+      "credits": 4,
+      "req": [],
+      "term": 2,
+      "category": "Taller"
+    },
+    {
+      "code": "CALC2",
+      "name": "C\u00e1lculo II",
+      "credits": 8,
+      "req": [
+        "CALC1"
+      ],
+      "term": 3,
+      "category": "Ciencias B\u00e1sicas"
+    },
+    {
+      "code": "ECOLOGIA",
+      "name": "Fundamentos de Ecolog\u00eda y Evoluci\u00f3n",
+      "credits": 6,
+      "req": [],
+      "term": 3,
+      "category": "Forestales"
+    },
+    {
+      "code": "INTROECO",
+      "name": "Introducci\u00f3n a la Econom\u00eda",
+      "credits": 6,
+      "req": [],
+      "term": 3,
+      "category": "Ciencias Sociales"
+    },
+    {
+      "code": "TALLER3",
+      "name": "Taller 3",
+      "credits": 4,
+      "req": [
+        "TALLER2"
+      ],
+      "term": 3,
+      "category": "Taller"
+    },
+    {
+      "code": "ESTADISTICA",
+      "name": "Estad\u00edstica",
+      "credits": 6,
+      "req": [
+        "CALC1"
+      ],
+      "term": 4,
+      "category": "Ciencias B\u00e1sicas"
+    },
+    {
+      "code": "GENETICA",
+      "name": "Gen\u00e9tica y Biotecnolog\u00eda",
+      "credits": 6,
+      "req": [
+        "ECOLOGIA"
+      ],
+      "term": 4,
+      "category": "Forestales"
+    },
+    {
+      "code": "FISIOVEG",
+      "name": "Fisiolog\u00eda Vegetal",
+      "credits": 6,
+      "req": [
+        "BOTANICA"
+      ],
+      "term": 4,
+      "category": "Forestales"
+    },
+    {
+      "code": "SUELOS",
+      "name": "Suelos y Fertilidad",
+      "credits": 6,
+      "req": [
+        "TALLER1"
+      ],
+      "term": 4,
+      "category": "Major"
+    },
+    {
+      "code": "CLIMA",
+      "name": "Climatolog\u00eda",
+      "credits": 6,
+      "req": [
+        "TALLER1",
+        "CALC1"
+      ],
+      "term": 4,
+      "category": "Major"
+    },
+    {
+      "code": "INTROAMBI",
+      "name": "Introducci\u00f3n a la Econom\u00eda Ambiental",
+      "credits": 6,
+      "req": [
+        "INTROECO"
+      ],
+      "term": 4,
+      "category": "Major"
+    }
+  ]
+}
